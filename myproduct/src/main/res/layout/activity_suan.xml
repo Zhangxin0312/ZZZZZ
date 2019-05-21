@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.SuanActivity"
+    android:orientation="vertical">
+  <Button
+      android:layout_width="350dp"
+      android:layout_height="wrap_content"
+      android:background="@drawable/btn_draw"
+      android:layout_marginLeft="70dp"
+      android:layout_marginTop="10dp"
+      android:id="@+id/add_btn"
+      android:textColor="#ff00ff"
+      android:hint="暂无收货地址,点击添加"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/suan_recyclerView"/>
+
+        <LinearLayout
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#cccccc">
+           <Button
+               android:id="@+id/commit_id"
+               android:background="#7FFF00"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="提交订单"
+               android:layout_marginLeft="370dp"/>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

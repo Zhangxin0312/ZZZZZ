@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/login_register_background"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/zhu_phone"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="180dp"
+        android:hint="手机号"
+        android:textColorHint="#ffffff" />
+
+    <EditText
+        android:id="@+id/zhu_yan"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="20dp"
+        android:hint="验证码"
+        android:textColorHint="#ffffff" />
+
+    <EditText
+        android:id="@+id/zhu_pwd"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="30dp"
+        android:textColorHint="#ffffff"
+        android:hint="登录密码" />
+
+    <TextView
+        android:id="@+id/jumps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="10dp"
+        android:text="已有账户？立即登陆"
+        android:textColor="#ffffff"
+        android:textSize="15dp" />
+
+    <Button
+        android:textColor="#ff00"
+        android:id="@+id/zhu_regist"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/btn_draw"
+        android:textSize="18dp"
+        android:text="注册" />
+</LinearLayout>

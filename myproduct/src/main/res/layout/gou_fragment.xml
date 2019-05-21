@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+  <android.support.v7.widget.RecyclerView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/gou_recyclerView"/>
+
+  <LinearLayout
+      android:background="#cccccc"
+      android:layout_alignParentBottom="true"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal">
+    <CheckBox
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginBottom="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkAll"
+        android:layout_marginLeft="10dp"
+        android:text="全选"/>
+    <TextView
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginLeft="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="合计："/>
+    <TextView
+        android:textStyle="bold"
+        android:text="￥0"
+        android:textColor="#ff00"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sum"/>
+
+    <Button
+        android:layout_marginLeft="150dp"
+        android:id="@+id/last"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="#7FFF00"
+        android:text="去结算" />
+  </LinearLayout>
+</RelativeLayout>

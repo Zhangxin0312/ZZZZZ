@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#CCCCCC">
+      <ImageView
+          android:layout_marginTop="200dp"
+          android:layout_gravity="center"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:src="@mipmap/success"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="支付成功"
+        android:gravity="center"
+        android:textColor="#ffffff"/>
+    <Button
+        android:id="@+id/back_id"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="返回主页"
+        android:layout_marginTop="30dp"
+        android:textColor="#ffffff"
+        android:background="#ff0f00"/>
+    <Button
+        android:id="@+id/look_id"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="查看订单"
+        android:layout_marginTop="20dp"
+        android:textColor="#FF00FF" />
+</LinearLayout>

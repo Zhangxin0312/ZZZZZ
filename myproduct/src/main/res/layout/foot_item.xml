@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+  <LinearLayout
+      android:layout_marginTop="20dp"
+      android:layout_marginBottom="20dp"
+      android:layout_marginLeft="20dp"
+      android:layout_marginRight="20dp"
+      android:background="@drawable/qian_cplor"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+      <ImageView
+          android:layout_marginLeft="20dp"
+          android:layout_marginRight="20dp"
+          android:layout_marginTop="10dp"
+          android:layout_width="150dp"
+          android:layout_height="200dp"
+          android:id="@+id/foot_iv"/>
+      <TextView
+          android:singleLine="true"
+          android:ellipsize="end"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="20dp"
+          android:id="@+id/foot_title"/>
+      <LinearLayout
+          android:layout_marginTop="10dp"
+          android:layout_marginLeft="20dp"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal">
+          <TextView
+              android:textColor="#ff0000"
+              android:textSize="20dp"
+              android:layout_marginLeft="10dp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/foot_price" />
+          <TextView
+              android:layout_marginLeft="40dp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/foot_num" />
+      </LinearLayout>
+      <TextView
+          android:layout_marginTop="10dp"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/foot_time"
+          android:layout_marginLeft="80dp"
+          android:layout_marginRight="10dp"
+          android:layout_marginBottom="20dp"/>
+  </LinearLayout>
+</LinearLayout>
