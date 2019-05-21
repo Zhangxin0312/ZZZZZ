@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        fresco:roundedCornerRadius="@dimen/dp_10"
+        android:layout_width="@dimen/dp_150"
+        android:layout_height="@dimen/dp_220"
+        android:id="@+id/ban_iv"/>
+</LinearLayout>

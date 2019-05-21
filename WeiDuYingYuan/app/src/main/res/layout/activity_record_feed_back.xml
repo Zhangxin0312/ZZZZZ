@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.RecordFeedBackActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:textSize="@dimen/sp_18"
+        android:layout_marginTop="@dimen/dp_30"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="意见反馈"/>
+
+    <EditText
+        android:padding="@dimen/dp_10"
+        android:background="@drawable/hui"
+        android:id="@+id/feed_content"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_80"
+        android:layout_marginTop="@dimen/dp_30"
+        android:layout_marginRight="@dimen/dp_20"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:hint="写下您对应用的感受吧! 工作人员将会在第一时间评估处理。"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/commit_id"
+            android:layout_alignParentRight="true"
+            android:layout_width="@dimen/dp_80"
+            android:text="提交"
+            android:textColor="#ffffff"
+            android:layout_height="@dimen/dp_40"
+            android:background="@drawable/zi"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_20"/>
+    </RelativeLayout>
+</LinearLayout>
