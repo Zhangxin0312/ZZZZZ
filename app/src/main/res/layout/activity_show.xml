@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.ShowActivity">
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/view_pager"
+        ></android.support.v4.view.ViewPager>
+   <!-- <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/radio_group"
+        android:orientation="horizontal"
+        >
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/btn_rb1"
+            android:button="@null"
+            android:background="@mipmap/film"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:id="@+id/btn_rb2"
+            android:background="@mipmap/cin"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:id="@+id/btn_rb3"
+            android:background="@mipmap/my"
+            />
+
+    </RadioGroup>-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_100"
+        android:layout_alignParentBottom="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_100"
+            android:layout_alignParentBottom="true"
+            android:alpha="0.3"
+            android:background="@drawable/gradlient_background" />
+        <RadioGroup
+            android:id="@+id/radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/dp_34"
+            android:layout_marginRight="@dimen/dp_34"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/btn_rb1"
+                android:layout_width="@dimen/dp_60"
+                android:layout_height="@dimen/dp_60"
+                android:layout_alignParentLeft="true"
+                android:background="@mipmap/film"
+                android:button="@null"
+                android:checked="true" />
+
+            <RadioButton
+                android:id="@+id/btn_rb2"
+                android:layout_width="@dimen/dp_60"
+                android:layout_height="@dimen/dp_60"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="@dimen/dp_50"
+                android:layout_marginRight="@dimen/dp_50"
+                android:background="@mipmap/cin"
+                android:button="@null" />
+
+            <RadioButton
+                android:id="@+id/btn_rb3"
+                android:layout_width="@dimen/dp_60"
+                android:layout_height="@dimen/dp_60"
+                android:layout_alignParentRight="true"
+                android:background="@mipmap/my"
+                android:button="@null" />
+        </RadioGroup>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".activity.GuideActivity">
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/view_pager"
+        ></android.support.v4.view.ViewPager>
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true">
+        <RadioButton android:id="@+id/rb1" android:button="@null" android:layout_height="wrap_content" android:layout_width="wrap_content" android:checked="true"/>
+        <RadioButton android:id="@+id/rb2"  android:button="@null"  android:layout_height="wrap_content" android:layout_width="wrap_content"/>
+        <RadioButton android:id="@+id/rb3"  android:button="@null" android:layout_height="wrap_content" android:layout_width="wrap_content"/>
+        <RadioButton android:id="@+id/rb4"  android:button="@null" android:layout_height="wrap_content" android:layout_width="wrap_content"/>
+    </RadioGroup>
+</RelativeLayout>

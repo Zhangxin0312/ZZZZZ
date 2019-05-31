@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@mipmap/qidong"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="维度影院"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        android:layout_marginTop="@dimen/dp_350"
+        android:id="@+id/btn_qidong"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="一场不一样的视觉盛宴"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        />
+</LinearLayout>
